@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(22, 110, 14);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 5fr;
+    grid-template-rows: 1fr 5fr 1fr 1fr;
+    gap: 1%;
+}
+
+.box {
+    background-color: brown;
+    color: white;
+}
+
+.box1{
+    grid-column: 1 / 5;
+    display: flex;
+    justify-content: space-evenly;
+}
+.test{
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+}
+
+.box2{
+    grid-row: 2 / 4;
+}
+.box3{
+    grid-row: 2 / 3;
+    grid-column: 2 / 5;
+}
+.box7{
+    grid-column: 1 / 5;
+}
